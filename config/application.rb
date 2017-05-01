@@ -2,7 +2,7 @@
 
   require 'rails/all'
 
-  require './lib/exchange'
+  require './lib/currency'
 
   # Require the gems listed in Gemfile, including any gems
   # you've limited to :test, :development, or :production.
