@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "Convert currency process", :type => :feature do
   before do
     visit '/'
-    within("#converter_form") do
+    within("#converter-form") do
       select('EUR', from: 'currency')
       select('USD', from: 'currency_destination')
       fill_in 'quantity', with: '10'
