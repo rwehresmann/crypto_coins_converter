@@ -1,4 +1,20 @@
-<div class="container">
+<div class="container-fluid">
+  <div class="row">
+    <div class="offset-md-11 col-md-1">
+      <div class="row">
+        <div class=col-sm-3>
+          <%= link_to root_path(locale: :en) do %>
+            <%= image_tag("usa.jpg", size: "25x15") %>
+          <% end %>
+        </div>
+        <div class=col-sm-3>
+          <%= link_to root_path(locale: :'pt-BR') do %>
+            <%= image_tag("brazil.jpg", size: "25x15") %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-lg-3 offset-lg-1 col-md-12 converter-box">
       <div class="row">
@@ -10,12 +26,12 @@
         <%= render "shared/converter_box" %>
       </div>
     </div>
-    <div class="col-lg-7 offset-lg-1 hidden-md-down title-box">
+    <div class="col-lg-6 offset-lg-1 hidden-md-down title-box">
       <div class="row">
-        <h2 class="title">Converta facilmente suas moedas</h2>
+        <h2 class="title"><%= t('.title') %></h2>
       </div>
       <div class="row">
-        <h4 class="title">para qualquer moeda do mundo!</h3>
+        <h4 class="title"><%= t('.subtitle') %></h3>
       </div>
     </div>
   </div>
