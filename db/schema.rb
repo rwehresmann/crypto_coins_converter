@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170715195320) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "coins", force: :cascade do |t|
+    t.string   "coin_market_cap_id", null: false
+    t.string   "name",               null: false
+    t.string   "abreviation",        null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.index ["abreviation"], name: "index_coins_on_abreviation", using: :btree
+    t.index ["coin_market_cap_id"], name: "index_coins_on_coin_market_cap_id", unique: true, using: :btree
+  end
 
 end
