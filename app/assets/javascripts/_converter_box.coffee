@@ -1,4 +1,20 @@
 $(document).on 'turbolinks:load', ->
+  CoinWidgetCom.go
+    wallet_address: '14qNSyVPtFh4twWLD7f5nuosb2MZCxcuPh'
+    currency: 'bitcoin'
+    counter: 'hide'
+    lbl_button: I18n.t('home.index.form_title')
+    lbl_count: 'donations'
+    lbl_amount: 'BTC'
+    lbl_address: 'This service was helpfull for you? Please, use address below to donate some value. Thanks!'
+    qrcode: true
+    alignment: 'bl'
+    decimals: 8
+    size: 'big'
+    color: 'dark'
+    countdownFrom: '0'
+    element: '#coinwidget-bitcoin-14qNSyVPtFh4twWLD7f5nuosb2MZCxcuPh'
+
   $('#converter-form').change ->
     call_convert()
 
