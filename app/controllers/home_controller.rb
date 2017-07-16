@@ -1,12 +1,14 @@
 class HomeController < ApplicationController
+  include CoinMarketCap
+
   def index
   end
 
   def convert
-    value = Currency::convert(
-      params[:currency],
-      params[:currency_destination],
-      params[:quantity].to_f
+    value = Converter.call(
+      coin_to_convert: params[:currency],
+      desired_coin: params[:currency_destination],
+      quantity: params[:quantity].to_f
     )
 
     render json: { "value": value }
