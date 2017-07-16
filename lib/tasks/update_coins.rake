@@ -1,7 +1,5 @@
-require './lib/coin_market_cap/coin_extracter'
-
 task update_coins: :environment do
-  coins = CoinMarketCap::CoinExtracter.call
+  coins = CoinMarketCap::Extracter.call
 
   coins.each do |coin|
     Coin.find_or_create_by(

@@ -1,7 +1,6 @@
 require 'rails_helper'
-require './lib/coin_market_cap/coin_extracter'
 
-describe CoinMarketCap::CoinExtracter do
+describe CoinMarketCap::Extracter do
   describe '.call' do
     it "returns the coins informations" do
       coins = described_class.call
