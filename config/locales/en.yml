@@ -8,3 +8,5 @@ en:
       another_currency: "To"
       quantity: "Amount"
       result: "Result"
+      donation_btn_title: "Donate to support this job!"
+      donation_ask_msg: "This service was helpfull for you? Please, use the address below to donate some value. Thanks!"

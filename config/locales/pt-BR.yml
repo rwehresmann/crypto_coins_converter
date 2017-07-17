@@ -8,3 +8,5 @@ pt-BR:
       another_currency: "Para"
       quantity: "Quantidade"
       result: "Resultado"
+      donation_btn_title: "Doe para apoiar esse trabalho!"
+      donation_ask_msg: "Esse serviço foi útil para você? Por favor, use o endereço abaixo para fazer uma doação. Muito obrigado!"

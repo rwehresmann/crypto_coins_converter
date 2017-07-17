@@ -3,10 +3,10 @@ $(document).on 'turbolinks:load', ->
     wallet_address: '14qNSyVPtFh4twWLD7f5nuosb2MZCxcuPh'
     currency: 'bitcoin'
     counter: 'hide'
-    lbl_button: I18n.t('home.index.form_title')
+    lbl_button: I18n.home.index.donation_btn_title
     lbl_count: 'donations'
     lbl_amount: 'BTC'
-    lbl_address: 'This service was helpfull for you? Please, use address below to donate some value. Thanks!'
+    lbl_address: I18n.home.index.donation_ask_msg
     qrcode: true
     alignment: 'bl'
     decimals: 8
