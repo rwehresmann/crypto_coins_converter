@@ -1,8 +1,8 @@
 pt-BR:
   home:
     index:
-      title: "Converta facilmente sua moeda"
-      subtitle: "para o valor de outra moeda ao redor do mundo!"
+      title: "Converta facilmente sua criptomoeda"
+      subtitle: "para o valor de qualquer outra criptomoeda ao redor do mundo!"
       form_title: "Simule uma conversão"
       your_currency: "De"
       another_currency: "Para"

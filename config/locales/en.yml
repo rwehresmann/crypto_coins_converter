@@ -1,8 +1,8 @@
 en:
   home:
     index:
-      title: "Easily convert your currency"
-      subtitle: "to another currency around the world!"
+      title: "Easily convert your crypto coin"
+      subtitle: "to any other crypto coin around the world!"
       form_title: "Convert"
       your_currency: "From"
       another_currency: "To"
