@@ -1,4 +1,4 @@
-$(document).on 'turbolinks:load', ->
+$(document).ready ->
   CoinWidgetCom.go
     wallet_address: '14qNSyVPtFh4twWLD7f5nuosb2MZCxcuPh'
     currency: 'bitcoin'
