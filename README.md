@@ -1,5 +1,3 @@
-![Codeship](https://app.codeship.com/projects/aafdc8b0-127a-0135-ca07-6629d8531a07/status?branch=master)
-
 # Currency Converter
 
 App developed in OneBitCode bootcamp 2, with the simple goal of provide an UI to convert currencies.
@@ -8,7 +6,7 @@ App developed in OneBitCode bootcamp 2, with the simple goal of provide an UI to
 
 ## Usage
 
-Clone the repository with `git clone https://github.com/rwehresmann/currency_converter.git`. In the repository folder: 
+Clone the repository with `git clone https://github.com/rwehresmann/currency_converter.git`. In the repository folder:
 
   * Run `docker-compose build`
   * Run `docker-compose up`
